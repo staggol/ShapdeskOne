@@ -113,6 +113,10 @@ p {
 	font-weight: 700;
 }
 
+.submit:hover {
+	background-color: #ff670e;
+}
+
 .inf {
 	color: #09d5ba;
 	margin-top: -50px;
