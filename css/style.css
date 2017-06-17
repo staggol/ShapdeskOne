@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700');
+
+body {
+	background-color: white;
+	font-family: "Lato", "Open Sans";
+	font-weight: 400;
+	font-size: 16px;
+	list-style: none;
+	word-spacing: 3px;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+header {
+	background-color: #09022d;
+}
+
+.navbar {
+	padding-top: 1%;
+	padding-left: 15%;
+}
+
+.navbar-brand {
+	font-size: 36px;
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: white;
+}
+
+.navbar-collapse {
+	padding-top: 5px;
+}
+
+.navbar-collapse a {
+	color: white;
+	font-size: 12px;
+}
+
+.navbar-collapse a:hover {
+	background-color: #09022d !important;
+	color: #48D1CC;
+}
+
+.one {
+	background-color: #ffffff;
+}
+
+.desc {
+	margin-top: 50px;
+}
+
+.two {
+	background-color: #d4d4d4;
+}
+
+.sp {
+	color: #40E0D0;
+}
+
+h1 {
+	font-size: 26px;
+	font-weight: 500;
+}
+
+p {
+	font-size: 14px;
+}
+
+.icon-bar {
+	background-color: white;
+}
