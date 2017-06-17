@@ -104,7 +104,7 @@ p {
 
 .submit {
 	position: relative;
-	top: -100px;
+	top: -5em;
 	background-color: #09d5ba;
 	color: black;
 	border: none;
@@ -115,6 +115,13 @@ p {
 
 .inf {
 	color: #09d5ba;
+	margin-top: -50px;
+}
+
+.but {
+	position: relative;
+	top: 250px;
+	z-index: 1;
 }
 
 @media (max-width: 1080px) {
