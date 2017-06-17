@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
 
 body {
 	background-color: white;
-	font-family: "Lato", "Open Sans";
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	list-style: none;
@@ -12,13 +14,17 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 
+.centered {
+	text-align: center;
+}
+
 header {
 	background-color: #09022d;
 }
 
 .navbar {
 	padding-top: 1%;
-	padding-left: 15%;
+	padding-left: 12%;
 }
 
 .navbar-brand {
@@ -36,7 +42,9 @@ header {
 
 .navbar-collapse a {
 	color: white;
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
 }
 
 .navbar-collapse a:hover {
@@ -60,9 +68,21 @@ header {
 	color: #40E0D0;
 }
 
+h1 {
+	font-size: 48px;
+	color: white;
+	letter-spacing: 2px;
+}
+
 h2 {
 	font-size: 26px;
 	font-weight: 500;
+}
+
+h3 {
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 100;
+	font-size: 32px;
 }
 
 p {
