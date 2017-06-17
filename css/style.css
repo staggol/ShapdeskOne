@@ -94,10 +94,7 @@ p {
 	background-color: white;
 }
 
-.img-r {
-	margin-left: -15px;
-	margin-top: 10px;
-}
+
 
 .img-b {
 	position: absolute;
@@ -121,11 +118,3 @@ p {
 }
 
 
-@media (max-width: 1280px) {
-
-	.img-r {
-	height: 20em;
-	width: 50em;
-	}
-
-}
