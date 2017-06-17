@@ -130,4 +130,8 @@ p {
 	display: none;
 	}
 
+	#headerwrap h1 {
+		font-size: 36px;
+	}
+
 }
