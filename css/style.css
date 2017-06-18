@@ -49,6 +49,10 @@ a:hover, a:focus {
 	text-align: center;
 }
 
+.fa-chevron-down {
+	color: #09d5ba;
+}
+
 header {
 	background-color: #09022d;
 }
@@ -138,7 +142,7 @@ p {
 
 .submit {
 	position: relative;
-	top: -5em;
+	top: -4em;
 	background-color: #09d5ba;
 	color: black;
 	border: none;
@@ -155,6 +159,11 @@ p {
 .inf {
 	color: #09d5ba;
 	margin-top: -50px;
+	transition-duration: 0.5s;
+}
+
+.inf:hover {
+	color: #ff670e;
 }
 
 .but {
