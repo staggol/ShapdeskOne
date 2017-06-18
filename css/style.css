@@ -151,10 +151,23 @@ section p {
 }
 
 section:nth-of-type(2) {
-	margin-top: 20px;
+	margin-top: 10px;
+}
+
+/* SECTION THREE */
+
+.frame {
+	margin-top: 100px;
+	margin-right: auto;
 }
 
 /* Mobile\Computer\Tablets */
+
+@media (min-width: 1280px) {
+
+	
+
+}
 
 @media (max-width: 1080px) {
 
