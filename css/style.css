@@ -161,11 +161,25 @@ section:nth-of-type(2) {
 	margin-right: auto;
 }
 
+/* SECTION FOUR */
+
+.teh {
+	margin-top: -100px;
+	margin: auto;
+}
+
+/* SECTION FIVE */
+
+.fig {
+	margin-top: 10%;
+	margin: auto;
+}
+
 /* Mobile\Computer\Tablets */
 
 @media (min-width: 1280px) {
 
-	
+
 
 }
 
