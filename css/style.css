@@ -43,6 +43,23 @@ a:hover, a:focus {
 	color: #09d5ba;
 }
 
+#toTop {
+width: 100px;
+border: none;
+border-radius: 5px;
+background: #09d5ba;
+text-align: center;
+padding: 5px;
+position: fixed;
+bottom: 10px; /* отступ кнопки от нижнего края страницы*/
+right: 10px;
+cursor: pointer;
+display: none;
+color: black;
+font-size: 11px;
+z-index: 2;
+}
+
 /* HEADER */
 
 .centered {
@@ -221,7 +238,7 @@ section:nth-of-type(2) {
 }
 
 .carousel-control, .carousel-control:hover {
-	color: black;
+	
 }
 
 #slider .item .carousel-caption p {
@@ -249,8 +266,9 @@ section:nth-of-type(2) {
 	font-weight: bold;
 }
 
-
-
+.glyphicon-chevron-right, .glyphicon-chevron-left {
+	color: black;
+}
 
 /* FOOTER */
 
