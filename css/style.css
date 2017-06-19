@@ -142,6 +142,7 @@ h3 {
 
 h4 {
 	font-size: 18px;
+	font-weight: 600;
 }
 
 p {
@@ -285,8 +286,23 @@ section:nth-of-type(2) {
 }
 
 #constructor .img-responsive {
-	margin-left: 110px;
 }
+
+#constructor p {
+	font-size: 14px;
+}
+
+
+.color-frame {
+	margin-left: 180px;
+	margin-top: 20px;
+}
+
+
+.color-frame .black {
+	margin-left: 3%;
+}
+
 
 /* FOOTER */
 
@@ -319,7 +335,8 @@ footer {
 
 	#constructor .img-responsive {
 	margin-left: 0;
-}
+	}
+
 
 }
 
