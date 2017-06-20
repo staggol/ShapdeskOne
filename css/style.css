@@ -43,22 +43,6 @@ a:hover, a:focus {
 	color: #09d5ba;
 }
 
-#toTop {
-width: 100px;
-border: none;
-border-radius: 5px;
-background: #09d5ba;
-text-align: center;
-padding: 5px;
-position: fixed;
-bottom: 10px; /* отступ кнопки от нижнего края страницы*/
-right: 10px;
-cursor: pointer;
-display: none;
-color: black;
-font-size: 11px;
-z-index: 2;
-}
 
 /* HEADER */
 
@@ -117,6 +101,10 @@ header {
 	background-color: #ffffff;
 }
 
+section {
+	margin: 20px 0;
+}
+
 /* TEXT */
 
 .sp {
@@ -145,8 +133,17 @@ h4 {
 	font-weight: 600;
 }
 
+h5 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
 p {
 	font-size: 14px;
+}
+
+.pro {
+	font-size: 12px;
 }
 
 /* SECTION ONE */
@@ -285,22 +282,29 @@ section:nth-of-type(2) {
 	font-weight: 600;
 }
 
-#constructor .img-responsive {
-}
-
 #constructor p {
 	font-size: 14px;
 }
 
 
-.color-frame {
+
+#constructor h4 {
+	margin-bottom: 5%;
+}
+
+
+.color-frame, .material, .size {
 	margin-left: 180px;
 	margin-top: 20px;
 }
 
 
-.color-frame .black {
+.black {
 	margin-left: 3%;
+}
+
+.white {
+	margin-left: -10%;
 }
 
 
