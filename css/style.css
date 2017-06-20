@@ -61,6 +61,8 @@ header {
 .navbar {
 	padding-top: 1%;
 	padding-left: 12%;
+	font-family: 'Lato';
+	font-weight: 
 }
 
 .navbar-brand {
@@ -307,6 +309,39 @@ section:nth-of-type(2) {
 	margin-left: -10%;
 }
 
+label {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.promo {
+	padding: 5px 10px;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 180px;
+	font-family: 'Lato', cursive;
+}
+
+.So {
+	margin: 20px 180px;
+	font-size: 14px;
+}
+
+.button {
+	border-radius: 50px;
+	background: #ff5c11;
+	padding: 10px 40px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.images {
+	margin-top: 30px;
+}
+
+.images div {
+	margin-left: -20px;
+}
 
 /* FOOTER */
 
