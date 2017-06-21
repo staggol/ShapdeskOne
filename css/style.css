@@ -231,12 +231,9 @@ section:nth-of-type(2) {
 
 .frame {
 	padding-top: 100px;
-	margin-right: -20% !important;
 }
 
-.podstol {
-	margin-right: 20px;
-}
+
 
 /* SECTION FOUR */
 
@@ -520,6 +517,6 @@ footer {
 	}
 
 	section p {
-		font-size: 10px;
+		font-size: 14px;
 	}
 }
