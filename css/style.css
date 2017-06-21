@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
 
 
 body {
@@ -351,11 +351,7 @@ footer {
 
 /* Mobile\Computer\Tablets */
 
-@media (min-width: 1280px) {
 
-
-
-}
 
 @media (max-width: 1080px) {
 
@@ -373,17 +369,39 @@ footer {
 	}
 
 	#constructor .img-responsive {
-	margin-left: 0;
+		margin-left: 0;
 	}
+
+	#slider .item .carousel-caption p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	#constructor {
+		margin-top: 50px;
+	}
+
+	#constructor h2 {
+		font-weight: 600;
+	}
+
+	#constructor p {
+		font-size: 12px;
+	}
+
+	label {
+		font-size: 12px;
+	}
+
 
 
 }
 
 
-@media (max-width: 667px) {
+@media (max-width: 720px) {
 
 	.img-b {
-	display: none;
+		display: none;
 	}
 
 	#headerwrap h1 {
@@ -394,5 +412,20 @@ footer {
 		top: 75px;
 		margin-bottom: 100px;
 	}
+
+	#slider .item .carousel-caption p {
+		font-size: 10px;
+		line-height: 15px;
+	}
+
+	#constructor p {
+		font-size: 10px;
+	}
+
+	label {
+		font-size: 10px;
+	}
+
+
 
 }
