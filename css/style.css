@@ -460,7 +460,10 @@ footer {
 		font-size: 10px;
 	}
 
-
+	.frame {
+		width: 20em;
+		height: 15em;
+	}
 	
 
 	.land {
