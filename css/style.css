@@ -117,6 +117,10 @@ section:nth-of-type(3) p, section:nth-of-type(3) h2, section:nth-of-type(5) p, s
 	margin-left: 60px;
 }
 
+
+
+
+
 h1 {
 	font-size: 48px;
 	color: white;
@@ -227,7 +231,6 @@ section:nth-of-type(2) {
 
 .teh {
 	margin-top: -100px;
-	margin: auto;
 }
 
 /* SECTION FIVE */
