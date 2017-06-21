@@ -15,21 +15,6 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 
-#cont {
-	width: 100%;
-	z-index: 10;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	height: 2px;
-}
-
-#progress {
-	background-image: linear-gradient(to right, #e8d1b6, #c4b1a0);
-	width: 0;
-	height: inherit;
-}
-
 a {
 	text-decoration: none;
 	list-style: none;
