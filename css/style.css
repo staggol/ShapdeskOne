@@ -43,6 +43,9 @@ a:hover, a:focus {
 	color: #09d5ba;
 }
 
+p {
+	font-weight: 600;
+}
 
 /* HEADER */
 
@@ -96,7 +99,7 @@ header {
 }
 
 .desc {
-	margin-top: 50px;
+	padding-top: 50px;
 }
 
 .two {
@@ -114,7 +117,7 @@ section:nth-of-type(2) {
 }
 
 section:nth-of-type(3) p, section:nth-of-type(3) h2, section:nth-of-type(5) p, section:nth-of-type(5) h2 {
-	margin-left: 60px;
+	padding-left: 60px;
 }
 
 
@@ -202,9 +205,8 @@ p {
 }
 
 .stol {
-	height: 22em;
-	width: 22em;
-	margin-top: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 section p {
@@ -224,7 +226,7 @@ section:nth-of-type(2) {
 /* SECTION THREE */
 
 .frame {
-	margin-top: 100px;
+	padding-top: 100px;
 }
 
 /* SECTION FOUR */
@@ -236,8 +238,7 @@ section:nth-of-type(2) {
 /* SECTION FIVE */
 
 .fig {
-	margin-top: 10%;
-	margin: auto;
+	padding-top: 40px;
 }
 
 
