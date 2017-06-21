@@ -44,7 +44,7 @@ a:hover, a:focus {
 }
 
 p {
-	font-weight: 600;
+	font-weight: 400;
 }
 
 /* HEADER */
@@ -99,7 +99,7 @@ header {
 }
 
 .desc {
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 .two {
@@ -172,6 +172,10 @@ p {
 	bottom: 220px;
 }
 
+.img-r {
+	margin: auto;
+}
+
 .submit {
 	position: relative;
 	top: -4em;
@@ -227,6 +231,11 @@ section:nth-of-type(2) {
 
 .frame {
 	padding-top: 100px;
+	margin-right: -20% !important;
+}
+
+.podstol {
+	margin-right: 20px;
 }
 
 /* SECTION FOUR */
@@ -401,6 +410,41 @@ footer {
 		font-size: 10px;
 	}
 
+	.land {
+		margin-left: -100px;
+	}
+
+	.frame {
+		height: 20em;
+		width: 29em;
+	}
+
+	h1 {
+	font-size: 42px;
+	color: white;
+	letter-spacing: 2px;
+	}
+
+	h2 {
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	h3 {
+		color: rgba(255, 255, 255, 0.5);
+		font-weight: 100;
+		font-size: 28px;
+	}
+
+	h4 {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	h5 {
+		font-size: 14px;
+		font-weight: 600;
+	}
 
 
 }
@@ -435,5 +479,47 @@ footer {
 	}
 
 
+	.frame {
+		height: 8em;
+		width: 17em;
+	}
 
+	.land {
+		margin-left: -120px;
+	}
+
+	h1 {
+	font-size: 42px;
+	color: white;
+	letter-spacing: 2px;
+	}
+
+	h2 {
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	h3 {
+		color: rgba(255, 255, 255, 0.5);
+		font-weight: 100;
+		font-size: 28px;
+	}
+
+	h4 {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	h5 {
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	section:nth-of-type(3) {
+		padding-bottom: 100px;
+	}
+
+	section p {
+		font-size: 10px;
+	}
 }
