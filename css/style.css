@@ -281,7 +281,7 @@ section:nth-of-type(2) {
 /* CONSTRUCTOR */
 
 #constructor {
-	margin-top: 50px;
+	padding-top: 50px;
 }
 
 #constructor h2 {
@@ -298,6 +298,10 @@ section:nth-of-type(2) {
 	margin-bottom: 5%;
 }
 
+
+#constructor .table {
+	margin-left: 100px;
+}
 
 .color-frame, .material, .size {
 	margin-left: 180px;
@@ -340,11 +344,15 @@ label {
 }
 
 .images {
-	margin-top: 30px;
+	padding-top: 30px;
 }
 
 .images div {
-	margin-left: -20px;
+	margin-left: -40px;
+}
+
+.images img {
+	margin-left: 100px;
 }
 
 /* FOOTER */
