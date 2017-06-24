@@ -83,7 +83,7 @@ header {
 	z-index: 1;
 }
 
-.desc, .desc2, .desc3, .de {
+.desc, .desc2, .desc3, .desc4, .desc5 {
 	padding-top: 25px;
 }
 
@@ -234,6 +234,10 @@ section:nth-of-type(2) {
 }
 
 .frame2 {
+	display: none;
+}
+
+.frame3 {
 	display: none;
 }
 
@@ -572,10 +576,6 @@ footer {
 		margin: auto;
 	}
 
-	.desc2 {
-		display: inline;
-	}
-
 	.frame {
 		display: none;
 	}
@@ -586,16 +586,24 @@ footer {
 		margin-top: 10px;
 	}
 
-	.desc {
-		display: none;
-	}
-
-	.
-
 
 
 /* Thirst block */
+	.podstol {
+		margin-left: -25px;
+	}
+
 /* Fourth block */
+
+	.frame3 {
+		display: block;
+	}
+
+	.teh3 {
+		
+	}
+
+
 /* Fifth block */
 
 	.fig {
