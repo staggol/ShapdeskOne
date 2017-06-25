@@ -610,5 +610,11 @@ footer {
 		display: none;
 	}
 
+	#description {
+		background: url(../img/fig2.PNG) no-repeat 100% 10%;
+		background-size: 60%;
+
+	}
+
 
 }
