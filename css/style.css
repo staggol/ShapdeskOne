@@ -229,6 +229,7 @@ section:nth-of-type(2) {
 	margin-left: 2%;
 }
 
+
 .desc2 {
 	display: none;
 }
@@ -600,7 +601,7 @@ footer {
 	}
 
 	.teh3 {
-		
+		width: 100%;
 	}
 
 
@@ -611,7 +612,7 @@ footer {
 	}
 
 	#description {
-		background: url(../img/fig2.PNG) no-repeat 100% 10%;
+		background: url(../img/fig2.PNG) no-repeat 100% -10%;
 		background-size: 60%;
 
 	}
